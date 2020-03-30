@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:antwater/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:antwater/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:antwater/prow:hmacToken
+segmentWriteKey: vault:antwater:segmentWriteKey
